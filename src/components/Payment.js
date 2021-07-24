@@ -7,6 +7,7 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from 'react-currency-format';
 import { getBasketTotal } from '../reducer/reducer';
 import axios from 'axios';
+import { db } from '../firebase';
 
 function Payment() {
     const [{ basket, user }, dispatch] = useStateValue();
@@ -46,11 +47,26 @@ function Payment() {
                 card: elements.getElement(CardElement)
             }
         }).then(({ paymentIntent }) => {
-            //paymentIntent = payment confirmation
+            //paymentIntent = payment confirmations
+
+            db
+                .collection('users')
+                .doc(user?.id)
+                .collection('orders')
+                .doc(paymentIntent.uid)
+                .set({
+                    basket: basket,
+                    amount: paymentIntent.amount,
+                    created: paymentIntent.created
+            })
 
             setSucceeded(true);
             setError(null)
             setProcessing(false)
+
+            dispatch({
+                type: 'EMPTY_BASKET'
+            })
 
             history.replaceState('/orders')
         })

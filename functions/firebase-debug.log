@@ -1,0 +1,443 @@
+[debug] [2021-07-23T15:03:20.100Z] ----------------------------------------------------------------------
+[debug] [2021-07-23T15:03:20.106Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2021-07-23T15:03:20.106Z] CLI Version:   6.12.0
+[debug] [2021-07-23T15:03:20.106Z] Platform:      darwin
+[debug] [2021-07-23T15:03:20.107Z] Node Version:  v14.16.1
+[debug] [2021-07-23T15:03:20.110Z] Time:          Fri Jul 23 2021 19:33:20 GMT+0430 (Iran Daylight Time)
+[debug] [2021-07-23T15:03:20.111Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-23T15:03:20.144Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-23T15:03:20.145Z] > authorizing via signed-in user
+[debug] [2021-07-23T15:03:20.150Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-86869  
+ 
+[debug] [2021-07-23T15:03:21.325Z] <<< HTTP RESPONSE 200
+[info] i  Starting emulators: ["functions","hosting"]
+[info] ✔  functions: Using node@14 from host.
+[debug] [2021-07-23T15:03:21.371Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800097984297:getServerAppConfig  
+ 
+[debug] [2021-07-23T15:03:22.011Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://0.0.0.0:5002
+[debug] [2021-07-23T15:03:22.039Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800097984297/clients/_:getWebAppConfig  
+ 
+[debug] [2021-07-23T15:03:23.258Z] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Emulator started at http://localhost:5000
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] i  functions: Watching "/Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions" for Cloud Functions...
+[debug] [2021-07-23T15:03:24.313Z] Functions runtime initialized.
+[debug] [2021-07-23T15:03:24.314Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:03:25.418Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6593) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:03:54.832Z] ----------------------------------------------------------------------
+[debug] [2021-07-23T15:03:54.837Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2021-07-23T15:03:54.837Z] CLI Version:   6.12.0
+[debug] [2021-07-23T15:03:54.837Z] Platform:      darwin
+[debug] [2021-07-23T15:03:54.837Z] Node Version:  v14.16.1
+[debug] [2021-07-23T15:03:54.840Z] Time:          Fri Jul 23 2021 19:33:54 GMT+0430 (Iran Daylight Time)
+[debug] [2021-07-23T15:03:54.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-23T15:03:54.865Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-23T15:03:54.866Z] > authorizing via signed-in user
+[debug] [2021-07-23T15:03:54.870Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-86869  
+ 
+[debug] [2021-07-23T15:03:55.463Z] <<< HTTP RESPONSE 200
+[info] i  Starting emulators: ["functions","hosting"]
+[info] ✔  functions: Using node@14 from host.
+[debug] [2021-07-23T15:03:55.505Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800097984297:getServerAppConfig  
+ 
+[debug] [2021-07-23T15:03:56.143Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5002
+[debug] [2021-07-23T15:03:56.165Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/800097984297/clients/_:getWebAppConfig  
+ 
+[debug] [2021-07-23T15:03:57.254Z] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Emulator started at http://localhost:5000
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] i  functions: Watching "/Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions" for Cloud Functions...
+[debug] [2021-07-23T15:03:58.242Z] Functions runtime initialized.
+[debug] [2021-07-23T15:03:58.243Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:03:59.300Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6635) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:04.909Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:06.897Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:06.898Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:07.992Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:08.092Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:08.484Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6648) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:08.496Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:08.596Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:10.498Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:10.545Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:10.546Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:10.569Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:12.252Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6662) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:12.534Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:12.639Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:12.639Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:13.719Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6674) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:14.417Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:14.419Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:15.253Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:15.314Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:15.715Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6681) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:16.621Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:16.685Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:17.319Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:17.320Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:18.525Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6694) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:18.583Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:18.596Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:19.727Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6699) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:20.594Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:22.208Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:22.209Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:22.960Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:23.318Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:23.782Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6708) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:25.197Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:25.198Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:25.265Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:26.277Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:26.334Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:26.738Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6721) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:27.241Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:27.242Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:28.671Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:28.672Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:28.701Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6728) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:30.131Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:30.179Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6731) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:30.258Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:32.439Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:32.501Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:32.638Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:32.639Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:33.104Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:33.187Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:34.546Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6748) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:35.439Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:35.441Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:35.836Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:36.598Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6762) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:37.402Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:37.918Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:37.919Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:39.163Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:39.165Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:39.248Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6769) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:40.267Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6781) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:41.989Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:43.634Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:43.723Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:43.764Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:43.764Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:45.361Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:45.461Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:45.600Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6795) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:45.929Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:45.930Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:47.386Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6801) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:47.691Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:47.692Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:48.759Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6807) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:07:51.094Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:51.194Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:07:52.768Z] Functions runtime initialized.
+[debug] [2021-07-23T15:07:52.769Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:07:53.968Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6821) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2021-07-23T15:08:35.440Z] File /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/index.js changed, reloading triggers
+[debug] [2021-07-23T15:08:37.389Z] Functions runtime initialized.
+[debug] [2021-07-23T15:08:37.390Z] Disabled runtime features: undefined
+[debug] [2021-07-23T15:08:38.472Z] Found google-gax at /Users/mehrshadpeyman/Desktop/react/ReactJS Clones/amazon-clone/functions/node_modules/google-gax/build/src/index.js
+[info] >  (node:6841) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[warn] ⚠  TypeError: Cannot set property GrpcClient of #<Object> which has only a getter
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:159:21
+    at Array.map (<anonymous>)
+    at InitializeNetworkFiltering (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:152:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:455:13
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at main (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:431:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:521:5)
+[warn] ⚠  Your function was killed because it raised an unhandled error.

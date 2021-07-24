@@ -5,6 +5,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../providers/StateProvider';
 import { auth } from "../firebase";
+
 function Header() {
     const [{basket,user }, dispatch] = useStateValue();
 
@@ -35,18 +36,21 @@ function Header() {
                     </div>
                 </Link>
 
+                <Link to='/orders'>
                 <div className='header_option'>
                     <span className='header_optionLineOne'>Returns</span>
                     <span className='header_optionLineTwo'>& Orders</span>
                 </div>
-
+                </Link>
+                
                 <div className='header_option'>
                     <span className='header_optionLineOne'>Your</span>
                     <span className='header_optionLineTwo'>Prime</span>
                 </div>
+                
 
                 {/* Basket */}
-                <Link to="./Checkout">
+                <Link to="/Checkout">
                 <div className="header_optionBasket">
                     <ShoppingBasketIcon />
                     <span className="header_optionLineTwo header_basketCount">{basket?.length}</span>
